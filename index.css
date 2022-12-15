@@ -2,6 +2,25 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
+.title{
+    text-align: center;
+    padding: .2em;
+    margin: 1em;
+}
+
+.img-container{
+    text-align: center;
+    margin: 35px 0 35px 0;
+}
+
+.backoffice-img{
+    width: 850px;
+}
+
+.backoffice-img-small{
+    width: 450px;
+}
+
 body{
     margin:0;
 }
@@ -72,9 +91,6 @@ h5{
     width:15%;
 }
 
-#backoffice-guide img{
-    width: 80%;
-}
 
 @media(max-width: 998px){
     img{

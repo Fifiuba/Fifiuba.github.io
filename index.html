@@ -1,64 +1,70 @@
 <head>
     <link rel="stylesheet" href="index.css">
-    <title>FIFIUBA - Gu&iacute;as</title>
+    <title>FIFIUBA - Guía</title>
 </head>
 
 <body>
 
     <div class="navbar">
         <div><img src="fifiuba_logo.png" width="100px">></div>
-        <a href="#backoffice-guide">Gu&iacute;a de Usuario - Back office</a>
-        <a href="#app-guide">Gu&iacute;a de Usuario - Aplicaci&oacute;n</a>
+        <a href="#backoffice-guide">Guía de Usuario - Backoffice</a>
+        <a href="#app-guide">Guía de Usuario - Aplicación</a>
     </div>
 
     <br>
 
     <div class="body">         
         <div id="backoffice-guide" style="padding-top:40px;">
-            <h1 style="text-align: center;">
-                Gu&iacute;a de c&oacute;mo utilizar el Back Office
+            <h1 class="title">
+                Guía de cómo utilizar el Backoffice
             </h1>
-            
-            <p style="font-weight: bold; text-align: center; font-style: italic;" >
-                Para poder ingresar al Back Office primero se debe logear con la cuenta super admin 
-            </p>
-            <p style="font-weight: bold; text-align: center; font-style: italic;">
-               coreoElectronico: adminfiuba@fiuba.com
-               contra: adminfiuba
-            </p>
-            <div align="center" style="margin-top:35px; margin-bottom:35px;">
-                <img src="./backoffice_images/login.png">
-            </div>
-            <p>
-                El login pose la opcion de mantener la session abierta a pesar de cerrar el navegador. En caso de no 
-                marcar la opcion, esta se mantendra mientras que no se cierre la pestaña
-            </p>
-            <h3 >
-                Home Page
-            </h3>
-            <p>
-                En el home podemos encontrar todas las tarjetas correspondientes a las distintas funcionalidades
-            </p>
-            <div align="center" style="margin-top:35px; margin-bottom:35px;">
-                <img src="./backoffice_images/login.png">
-            </div>
-            <h3 >
-                Gestion Usuarios
-            </h3>
-            <p>
-                En esta seccion se listarán todos los pasajeros del sistema mostrando sus nombres, dirreciones de correo electronico, telefonos y edades.
-                Estos datos estarán dispuestos en una tabla paginada en la cual el administrador puede navegar con el paginador. 
-                En esta seccion se puede ver en detalle los datos de cada pasajero con el icono de informacion y tambien se podra bloquear  o desbloquear 
-                al usuario con el boton de bloqueo. 
-            </p>
-            <div align="center" style="margin-top:35px; margin-bottom:35px;">
-                <img src="./backoffice_images/gestionarUsuarios.png">
-            </div>
             <h3>
-                Ver usuario
+                1. Ingresar como administrador
             </h3>
+            <p>
+                Para poder ingresar al Backoffice debe ingresar con una cuenta de administrador. 
+            </p>
+            <b>
+               Correo electrónico: adminfiuba@fiuba.com
+            </b>
+            <br>
+            <br>
+            <b>
+               Contraseña: adminfiuba
+            </b>
+            <div class="img-container">
+                <img class="backoffice-img-small" src="./backoffice_images/login.png">
+            </div>
+            <p>
+                Al ingresar se tiene la opción de mantener la sesión abierta a pesar de cerrar el navegador. En caso de no 
+                marcar la opción, esta se mantendra mientras que no se cierre la pestaña.
+            </p>
+            <h3 >
+                2. Home Page
+            </h3>
+            <p>
+                En el home podemos encontrar todas las tarjetas correspondientes a las distintas funcionalidades del sistema.
+            </p>
+            <div class="img-container">
+                <img class="backoffice-img" src="./backoffice_images/home.png">
+            </div>
+            <h3 >
+                3. Gestión de usuarios
+            </h3>
+            <p>
+                En esta sección se listarán todos los pasajeros del sistema mostrando sus nombres, direciones de correo electrónico, teléfonos y edades.
+                Estos datos estarán dispuestos en una tabla paginada en la cual el administrador puede navegar con el paginador. 
+                En esta sección se puede ver en detalle los datos de cada pasajero con el icono de información. También se podra bloquear  o desbloquear 
+                al usuario con el boton de bloqueo e incluso eliminarlo del sistema. 
+            </p>
+            <div class="img-container">
+                <img class="backoffice-img" src="./backoffice_images/gestionarUsuarios.png">
+            </div>
+            <h4>
+                3.1 Visualizar información del usuario
+            </h4>
             <p> 
-                Al ingresar a informacion mas detallada de un usuario el administrador podra ver en detalle la siguiente informacion  del pasajero
+                Al ingresar se podrá visualizar información mas detallada de un usuario en particular.
                 <ul>
                     <li>Datos Generales
                         <ul style="list-style-type: lower-alpha; padding-bottom: 0;">
@@ -67,36 +73,36 @@
                             <li style="margin-left:2em; padding-bottom: 0;">Edad</li>
                         </ul>
                     </li>
-                    <li>Direccion </li>
+                    <li>Dirección </li>
                     <li>Contacto 
                         <ul style="list-style-type: lower-alpha; padding-bottom: 0;">
-                            <li style="margin-left:2em">Correo Electronico</li>
+                            <li style="margin-left:2em">Correo Electrónico</li>
                             <li style="margin-left:2em; padding-bottom: 0;">Telefono</li>
                        </ul>
                     </li>
-                    <li>Callificacion</li>
+                    <li>Calificación</li>
                    </ul>
             </p>
-            <div align="center" style="margin-top:35px; margin-bottom:35px;">
-                <img src="./backoffice_images/datosEspecificosUsuario.png">
+            <div class="img-container">
+                <img class="backoffice-img" src="./backoffice_images/datosEspecificosUsuario.png">
             </div>
             <h3>
-                Gestionar Choferes
+                4. Gestionar Choferes
             </h3>
             <p>
-                En esta seccion se listarán todos los choferes del sistema mostrando sus nombres, dirreciones de correo electronico, telefonos y edades.
+                En esta sección se listarán todos los choferes del sistema mostrando sus nombres, direciones de correo electrónico, teléfonos y edades.
                 Estos datos estarán dispuestos en una tabla paginada en la cual el administrador puede navegar con el paginador. 
-                En esta seccion se puede ver en detalle los datos de cada chofer con el icono de informacion y tambien se podra bloquear  o desbloquear al chofer
-                con el boton de bloqueo. 
+                En esta sección se puede ver en detalle los datos de cada chofer con el icono de información y también se podra bloquear o desbloquear al chofer
+                con el boton de bloqueo e incluso eliminarlo del sistema. 
             </p>
-            <div align="center" style="margin-top:35px; margin-bottom:35px;">
-                <img src="./backoffice_images/GestionarChoferes.png">
+            <div class="img-container">
+                <img class="backoffice-img" src="./backoffice_images/GestionarChoferes.png">
             </div>
-            <h3>
-                Ver chofer
-            </h3>
+            <h4>
+                4.1 Visualizar información del chofer
+            </h4>
             <p> 
-                Al ingresar a informacion detallada del chofer el administrador podra ver en detalle la siguiente informacion del chofer
+                Al ingresar a información detallada del chofer el administrador podra ver en detalle la siguiente información del chofer
                 <ul>
                     <li>Datos Generales
                         <ul style="list-style-type: lower-alpha; padding-bottom: 0;">
@@ -105,72 +111,72 @@
                             <li style="margin-left:2em; padding-bottom: 0;">Edad</li>
                         </ul>
                     </li>
-                    <li>Vehiculo
+                    <li>Vehículo
                         <ul style="list-style-type: lower-alpha; padding-bottom: 0;">
                             <li style="margin-left:2em">Patente</li>
-                            <li style="margin-left:2em; padding-bottom: 0;">Matricula</li>
+                            <li style="margin-left:2em; padding-bottom: 0;">Matrícula</li>
                        </ul>
                     </li>
                     <li>Contacto 
                         <ul style="list-style-type: lower-alpha; padding-bottom: 0;">
-                            <li style="margin-left:2em">Correo Electronico</li>
-                            <li style="margin-left:2em; padding-bottom: 0;">Telefono</li>
+                            <li style="margin-left:2em">Correo Electrónico</li>
+                            <li style="margin-left:2em; padding-bottom: 0;">Teléfono</li>
                        </ul>
                     </li>
-                    <li>Callificacion</li>
+                    <li>Calificación</li>
                    </ul>
             </p>
-            <div align="center" style="margin-top:35px; margin-bottom:35px;">
-                <img src="./backoffice_images/datosEspecificoChofer.png">
+            <div class="img-container">
+                <img class="backoffice-img" src="./backoffice_images/datosEspecificoChofer.png">
             </div>
             <h3>
-                Gestionar admins
+                5. Visualizar administradores
             </h3>
             <p>
-                En esta seccion se listarán todos los administradores del sistema mostrando sus nombres y dirreciones de correo electronico
+                En esta sección se listarán todos los administradores del sistema mostrando sus nombres y direciones de correo electrónico
                 Estos datos estarán dispuestos en una tabla paginada en la cual el administrador puede navegar con el paginador. 
             </p>
             <h3>
-                Registrar Admin
+                6. Registrar administrador
             </h3>
             <p>
-                En esta seccion se podra registrar a un administrador que para poder crearse una cuenta debera cargar los siguientes datos:
+                En esta sección se podra registrar a un administrador que para poder crearse una cuenta debera cargar los siguientes datos:
                 <ul>
                     <li>Nombre</li>
                     <li>Apellido</li>
-                    <li>Correo Electronico: Es el identificador unico del usuario en la aplicacion y no podra ser modificado. Ingresar un email v&aacute;lido.</li>
+                    <li>Correo Electrónico: Es el identificador único del usuario en la aplicacion y no podrá ser modificado. Se debe ingresar un email válido.</li>
                     <li>Contraseña: La contraseña debe tener un minimo de </li>
                 </ul>
             </p>
-            <div align="center" style="margin-top:35px; margin-bottom:35px;">
-                <img src="./backoffice_images/registro.png">
+            <div class="img-container">
+                <img class="backoffice-img-small" src="./backoffice_images/registro.png">
             </div>
             <h3>
-                Perfil
+                7. Perfil
             </h3>
             <p>
-                En esta seccion podemos visualizar nustros datos personales: Nombre, Apellido y Correo Electronico. 
-                En caso de queder modifcar algun dato se debe apretar el boton editar perfil
+                En esta sección podemos visualizar nustros datos personales: Nombre, Apellido y Correo Electrónico. 
+                En caso de queder modificar algun dato se debe presionar sobre editar perfil.
             </p>
-            <div align="center" style="margin-top:35px; margin-bottom:35px;">
-                <img src="./backoffice_images/perfil.png">
+            <div class="img-container">
+                <img class="backoffice-img-small" src="./backoffice_images/perfil.png">
             </div>
-            <h3>
-                Editar Perfil
-            </h3>
+            <h4>
+                7.1 Editar Perfil
+            </h4>
             <p>
-                En esta seccion, podemos modificar los datos personales del administrador: nombre y apellido. 
-                El correo electronico es el unico dato que no se puede modificar ya que es el identificador unico que posee el administrador.
+                En esta sección, podemos modificar los datos personales del administrador: nombre y apellido. 
+                El correo electrónico es el único dato que no se puede modificar ya que es el identificador único que posee el administrador.
                 Debera apretar el boton guardar cambios para que efectivamente se modifiquen los datos o cancel si desea que se mantengan como estaban
             </p>
-            <div align="center" style="margin-top:35px; margin-bottom:35px;">
-                <img src="./backoffice_images/editar.png">
+            <div class="img-container">
+                <img class="backoffice-img-small" src="./backoffice_images/editar.png">
             </div>
             <h3>
-                Visualizar Viajes
+                8. Visualizar Viajes
             </h3>
             <p>
-                En esta seccion se listarán todos los viajes pedidos del sistema. Se mostrara la siguiente informacion:
+                En esta sección se listarán todos los viajes pedidos del sistema. Se mostrara la siguiente información:
                 <ul>
                     <li>Id</li>
                     <li>Estado</li>
@@ -181,124 +187,128 @@
                     <li>Inicio</li>
                     <li>Fin</li>
                 </ul>
-                <div align="center" style="margin-top:35px; margin-bottom:35px;">
-                    <img src="./backoffice_images/viajes.png">
+                <div class="img-container">
+                    <img class="backoffice-img" src="./backoffice_images/viajes.png">
                 </div>
-                Tambien se podra editar la distancia radial y el precio base 
-                <div align="center" style="margin-top:35px; margin-bottom:35px;">
-                    <img src="./backoffice_images/cotizacion.png">
+                También se podra editar la distancia radial y el precio base 
+                <div class="img-container">
+                    <img class="backoffice-img-small" src="./backoffice_images/cotizacion.png">
                 </div>
             </p>
             <h3> 
-                Metricas
+                9. Métricas
             </h3>
             <p>
-                En esta seccion es posible ver distintas m&eacute;tricas en funci&oacute;n del tiempo. Algunas de estas metricas son: 
+                En esta sección es posible visualizar distintas métricas en función del tiempo. Estas métricas permiten observar: 
                     <ul>
-                        <li>Distintos tipos de login</li>
-                        <li>Distintos tipos de registro</li>
-                        <li>Bloquear/desbloquear usuarios</li>
-                        <li>Recupero de contraseñas</li>    
+                        <li>Inicio de sesión con correo electrónico y contraseña vs Inicio de sesión con Google.</li>
+                        <li>Registro ingresando manualmente los datos vs Registro con Google.</li>
+                        <li>Bloqueos y desbloqueos de usuarios.</li>
+                        <li>Recupero de contraseñas.</li>    
                     </ul>
                     <br>
                     <br>
-                    En la seccion de arriba se puede apretar la metrica que se desea visualizar y quitar las que no. 
+                    A su vez dentro de cada métrica se tienen distintos tipos de gráficas. Se cuenta con una línea de tiempo que contiene
+                    la evolución del evento seleccionado, y otros tipos de gráfica que muestran las ocurrencias del evento el último día y la última semana.
+                    <br>
+                    <br>
+                    En la sección de arriba se puede seleccionar la métrica que se desea visualizar y las que no. 
             </p>
-            <div align="center" style="margin-top:35px; margin-bottom:35px;">
-                <img src="./backoffice_images/metricas.png">
+            <div class="img-container">
+                <img class="backoffice-img" src="./backoffice_images/metricas.png">
             </div>
             <h3>
-                Transacciones
+                10. Transacciones
             </h3>
             <p>
-                En esta seccion se listan las transsaciiones realizadas en el sistema. Estos datos estarán dispuestos 
+                En esta sección se listan las transsaciiones realizadas en el sistema. Estos datos estarán dispuestos 
                 en una tabla paginada en la cual el administrador puede navegar con el paginador.
-                Se visualiza la siguiente informacion:
+                Se visualiza la siguiente información:
                 <ul>
                     <li>Id</li>
                     <li>Transaccion Address</li>
                     <li>Origen</li>
                     <li>Destino</li>
-                    <li>Valoe</li>
+                    <li>Valor</li>
                 </ul>
             </p>
-            <div align="center" style="margin-top:35px; margin-bottom:35px;">
-                <img src="./backoffice_images/transacciones.png">
+            <div class="img-container">
+                <img class="backoffice-img" src="./backoffice_images/transacciones.png">
             </div>
             <h3>
-                Servicios
+                11. Servicios
             </h3>
             <p>
-                En esta seccion se listan los Servicios de backend de la aplicacion. Estos datos estarán dispuestos 
+                En esta sección se listan los servicios de backend de la aplicacion. Estos datos estarán dispuestos 
                 en una tabla paginada en la cual el administrador puede navegar con el paginador.
-                Se visualiza la siguiente informacion: 
+                Se visualiza la siguiente información: 
                 <ul>
                     <li>Servicio</li>
-                    <li>Descripcion</li>
+                    <li>Descripción</li>
                     <li>Creado</li>
                     <li>Estado</li>
                 </ul>
             </p>
-            <div align="center" style="margin-top:35px; margin-bottom:35px;">
-                <img src="./backoffice_images/servicios.png">
+            <div class="img-container">
+                <img class="backoffice-img" src="./backoffice_images/servicios.png">
             </div>
         </div>
         
         <div id="divider-guias"></div>
         <div id="app-guide" style="padding-top:40px;">
             <h1 style="text-align:center;">
-                Gu&iacute;a de c&oacute;mo utilizar la Aplicaci&oacute;n
+                Guía de cómo utilizar la Aplicación
             </h1>
 
             <h3>
-                Introducci&oacute;n
+                Introducción
             </h3>
             <p>
-                Dentro de la aplicaci&oacute;n el usuario podr&aacute; desempeñarse como pasajero y como chofer, con el mismo correo electronico pero debera loggearse con el rol que 
+                Dentro de la aplicación el usuario podrá desempeñarse como pasajero y como chofer, con el mismo correo electrónico pero debera loggearse con el rol que 
                 desee ingresar. Estos roles compartiran los datos generales del usuario, pero tendran datos especificos segun el tipo del rol con el que ingresen. 
                 <br><br>
-                Adem&aacute;s, en la aplicacion el pasajero podra buscar distintos viajes a realizar y solicitarlos mientras que el chofer recibira solicitudes de viajes cercanos a el, y 
+                Además, en la aplicacion el pasajero podra buscar distintos viajes a realizar y solicitarlos mientras que el chofer recibira solicitudes de viajes cercanos a el, y 
                 podra aceptarlos o rechazarlos. Una vez comenzado el viaje y finalizado se cobrara el viaje y se podra calificar tanto al chofer como al pasajero. 
                 <br><br>
-                En la aplicaci&oacute;n, tambi&eacute;n habr&aacute; un sistema de usuarios que podr&aacute; verse explicado en las siguientes secciones para los registros y logins de usuarios tanto
+                En la aplicación, también habrá un sistema de usuarios que podrá verse explicado en las siguientes secciónes para los registros y logins de usuarios tanto
                 con email y contrase&ntilde;a, como con un login federado con una cuenta de Google.
             </p>
             <h3>
                 Registro
             </h3>
             <p>
-                Para registrar a un usuario desde la pantalla inicial de la aplicacion se debe apretarl el boton de "No tenes cuenta? Registrate" para poder ingresar la informacion 
+                Para registrar a un usuario desde la pantalla inicial de la aplicacion se debe apretarl el boton de "No tenes cuenta? Registrate" para poder ingresar la información 
                 de registro. 
-                Una vez que se entro a la seccion de registrar usuario, el usuario podra crearse una cuenta con email y contraseña. Debera ingresar los siguientes campos: 
+                Una vez que se entro a la sección de registrar usuario, el usuario podra crearse una cuenta con email y contraseña. Debera ingresar los siguientes campos: 
                 <ul>
                     <li>Nombre</li>
-                    <li>Correo Electronico</li>
+                    <li>Correo Electrónico</li>
                     <li>Telefono</li>
                     <li>Edad</li>
                     <li>Contraseña</li>
                 </ul>
                 Ademas debera indicar como desea registrarse: pasajero o chofer utilizadon el boton swipe.
                 <br>
-                Una vez que ingresa los datos correspondientes, deber&aacute; pulsarse el bot&oacute;n de Continuar para finalizar el registro. En caso de errores se mostrar&aacute;
-                descriptivamente el fallo por el cu&aacute;l no puede realizarse el registro.
+                Una vez que ingresa los datos correspondientes, deberá pulsarse el botón de Continuar para finalizar el registro. En caso de errores se mostrará
+                descriptivamente el fallo por el cuál no puede realizarse el registro.
                 En caso de que si posea una cuenta y desee ingresar a la aplicacion con ella debe apretar el boton de "iniciar sesion"
             </p>
-            <div align="center" style="margin-top:35px; margin-bottom:35px;">
+            <div class="img-container">
                 <img src="./app_images/sign_up_view.PNG">
             </div>
             <h3>
                 Login
             </h3>
             <p>
-                Para poder ingresar a la aplicacion, el usuario deber&aacute; ingresar sus credenciales, el email , la conseña y con que rol desea ingresar. En caso de que estas se validad y sean correctas, el 
-                usuario podra ingresar a la aplicaci&oacute;n generandose una session redirigiendo al usuario a la p&aacute;gina
+                Para poder ingresar a la aplicacion, el usuario deberá ingresar sus credenciales, el email , la conseña y con que rol desea ingresar. En caso de que estas se validad y sean correctas, el 
+                usuario podra ingresar a la aplicación generandose una session redirigiendo al usuario a la página
                 de inicio.<br><br>
-                El usario tambien podra iniciar session con google aprendado el boton de "GOOGLE"
+                El usario también podra iniciar session con google aprendado el boton de "GOOGLE"
                 <br><br>
-                <span style="font-weight:bold;">Aclaraci&oacute;n: </span>
-                <span style="font-style: italic;">En caso de que el usuario se encuentre bloqueado no podr&aacute; realizar un login en la aplicaci&oacute;n y deber&aacute; comunicarse con un administrador.</span>
+                <span style="font-weight:bold;">Aclaración: </span>
+                <span style="font-style: italic;">En caso de que el usuario se encuentre bloqueado no podrá realizar un login en la aplicación y deberá comunicarse con un administrador.</span>
             </p>
-            <div align="center" style="margin-top:35px; margin-bottom:35px;">
+            <div class="img-container">
                 <img src="./app_images/login_view.PNG">
             </div>
             <h3>
@@ -308,7 +318,7 @@
                 En caso de que el usuario no recurde su contraseña, este debera apretar el boton "¿Has olvidado tu contraseña?" donde se le pedira que ingrese su email. 
                 El usuario deber apretra el boton de enviar link para que se le pueda mandar el link de recupero de contraseña al emial ingresado.
             </p>
-            <div align="center" style="margin-top:35px; margin-bottom:35px;">
+            <div class="img-container">
                 <img src="./app_images/reset_password_view.PNG">
             </div>
             <h3>
@@ -318,42 +328,42 @@
                 Al ingresar a la aplicacion, si el usuario ingresa por primera vez a la aplicacion no se mostrar ningun viaje realizado.
                 Cada vez que desee volver a home el pasajero debera apretar el boton con imagen de una casa.   
             </p>
-            <div align="center" style="margin-top:35px; margin-bottom:35px;">
+            <div class="img-container">
                 <img src="./app_images/home_passenger_view.PNG">
             </div>
             <p>
                 Una vez que el usuario realice un viaje,  el usuario va poder visualizar sus ultimos viajes realizados aprendado el boton buscar ultimos viajes
             </p>
-            <div align="center" style="margin-top:35px; margin-bottom:35px;">
+            <div class="img-container">
                 <img src="./app_images/home_passenger_view (2).PNG">
             </div>
             <h3>
                 Perfil Pasajero
             </h3>
             <p>
-                Si el pasajeo desea visualizar su perfil, este debe apretar el boton "perfil" que se encuentra en la session inferior a la derecha. En esta seccion el pasajero puede 
+                Si el pasajeo desea visualizar su perfil, este debe apretar el boton "perfil" que se encuentra en la session inferior a la derecha. En esta sección el pasajero puede 
                 visualuzar los siguientes datos: 
                 <ul>
                     <li>Nombre</li>
-                    <li>Correo Electronico</li>
+                    <li>Correo Electrónico</li>
                     <li>Telefono</li>
                     <li>Edad</li>
                     <li>Direccion default</li>
                 </ul>
                 
             </p>
-            <div align="center" style="margin-top:35px; margin-bottom:35px;">
+            <div class="img-container">
                 <img src="./app_images/profile_passenger_view.PNG">
             </div>
             <h3>
                 Editar Perfil Pasajero
             </h3>
             <p>
-                Desde la seccion "Perfil" el pasajero podra  realizar una edici&oacute;n de perfil, aprentando el boton editar. En esta seccion se le permite al
+                Desde la sección "Perfil" el pasajero podra  realizar una edición de perfil, aprentando el boton editar. En esta sección se le permite al
                 pasajero  modificar su nombre, edad, telefono, direccion y avatar. 
                 Para que los datos se modifiquen efectivamente, el pasajero debera apretar el boton guardar 
             </p>
-            <div align="center" style="margin-top:35px; margin-bottom:35px;">
+            <div class="img-container">
                 <img src="./app_images/edit_profile_passenger_view.PNG">
             </div>
             <h3>
@@ -363,19 +373,19 @@
                 Si el pasajero desea realizar un viaje, este debera apretar el boton "viajes" donde sera redirigio a una pantalla donde el usuario debera ingresar una direccion de 
                 origen y una de destino. 
             </p>
-            <div align="center" style="margin-top:35px; margin-bottom:35px;">
+            <div class="img-container">
                 <img src="./app_images/journey_passenger_view.PNG">
             </div>
             <p>
                 Una vez ingresado el origen y destino del viaje, para poder visualizar el precio del viaje el pasajero debra apretar el boton de buscar viaje.
             </p>
-            <div align="center" style="margin-top:35px; margin-bottom:35px;">
+            <div class="img-container">
                 <img src="./app_images/example_journey.PNG">
             </div>
             <p>
                 Si el pasajero desea realizar el viaje, debera apretar el boton de solicitar viaje donde se registrara su solcitud de viaje si se comenzara a buscar a un chofer. 
             </p>
-            <div align="center" style="margin-top:35px; margin-bottom:35px;">
+            <div class="img-container">
                 <img src="./app_images/get_price_view.PNG">
             </div>
             <h3>
@@ -391,7 +401,7 @@
                 </ul>
                 En caso de que desee cancelar el viaje, el pasajero debera apretar el boton de cancelar viaje. 
             </p>
-            <div align="center" style="margin-top:35px; margin-bottom:35px;">
+            <div class="img-container">
                 <img src="./app_images/waiting_for_driver_view.PNG">
             </div>
             <h3>
@@ -402,24 +412,24 @@
                 el boton buscar viajes. 
                 Cada vez que desee volver a home el chofer debera apretar el boton con imagen de una casa.   
             </p>
-            <div align="center" style="margin-top:35px; margin-bottom:35px;">
+            <div class="img-container">
                 <img src="./app_images/home_driver_view.PNG">
             </div>
             <p>
                 Una vez que el chofer busque nuevos viajes, se le mostrara la descripciones de los viajes mas cercanos. El chofer podra aceptar los viajes o rechazarlos.
             </p>
-            <div align="center" style="margin-top:35px; margin-bottom:35px;">
+            <div class="img-container">
                 <img src="./app_images/home_driver_view (2).PNG">
             </div>
             <h3>
                 Perfil chofer
             </h3>
             <p>
-                Si el chofer desea visualizar su perfil, este debe apretar el boton "perfil" que se encuentra en la session inferior a la derecha. En esta seccion el chofer puede 
+                Si el chofer desea visualizar su perfil, este debe apretar el boton "perfil" que se encuentra en la session inferior a la derecha. En esta sección el chofer puede 
                 visualuzar los siguientes datos: 
                 <ul>
                     <li>Nombre</li>
-                    <li>Correo Electronico</li>
+                    <li>Correo Electrónico</li>
                     <li>Telefono</li>
                     <li>Edad</li>
                     <li>Modelo del Vehiculo</li>
@@ -427,18 +437,18 @@
                 </ul>
                 
             </p>
-            <div align="center" style="margin-top:35px; margin-bottom:35px;">
+            <div class="img-container">
                 <img src="./app_images/profile_driver_view.PNG">
             </div>
             <h3>
                 Editar Perfil Chofer
             </h3>
             <p>
-                Desde la seccion "Perfil" el chofer podra  realizar una edici&oacute;n de perfil, aprentando el boton editar. En esta seccion se le permite al
+                Desde la sección "Perfil" el chofer podra  realizar una edición de perfil, aprentando el boton editar. En esta sección se le permite al
                 pasajero  modificar su nombre, edad, telefono, modelo, patente y avatar.
                 Para que los datos se modifiquen efectivamente, el chofer debera apretar el boton guardar 
             </p>
-            <div align="center" style="margin-top:35px; margin-bottom:35px;">
+            <div class="img-container">
                 <img src="./app_images/edit_profile_driver_view.PNG">
             </div>
             <h3>
@@ -448,19 +458,19 @@
                 Si cuando el chofer busca nuevos viajes solicitados y acepta un viaje se le mostrara el mapa desde donde el se encuentra.
                 Para poder ir al lugar de origen del viaje y que se le muestre el camino  debera apretar el botn ir. 
             </p>
-            <div align="center" style="margin-top:35px; margin-bottom:35px;">
+            <div class="img-container">
                 <img src="./app_images/ir.PNG">
             </div>
             <p>
                 Una vez que el chofer llega al lugar de origen debera apretar el boton comenzar. Al chofer se le mostrara el camino del viaje hasta llegar a destino.
             </p>
-            <div align="center" style="margin-top:35px; margin-bottom:35px;">
+            <div class="img-container">
                 <img src="./app_images/road_trip_driver_view.PNG">
             </div>
             <p>
                 Una vez que el chofer llega a destino este debe apretar el boton finalizar para efectivamente terminar el viaje y poder cobrarlo.  
             </p>
-            <div align="center" style="margin-top:35px; margin-bottom:35px;">
+            <div class="img-container">
                 <img src="./app_images/Terminar.PNG">
             </div>
             <h3>
@@ -470,7 +480,7 @@
                 Cuando un chofer le acepta el viaje al pasajero y llega al lugar de origen del viaje. Se le mostrara al pasajero el camino que estar realizando su chofer 
                 hasta llegar a destino, indicando el tiempo transcurrido.
             </p>
-            <div align="center" style="margin-top:35px; margin-bottom:35px;">
+            <div class="img-container">
                 <img src="./app_images/road_trip_passenger_view.PNG">
             </div>
             <h3>
@@ -480,7 +490,7 @@
                 Una vez que finaliza el viaje, se le informa al pasajero que se ha realizado el deposito del viaje al chofer y que podra calificarlo si es que lo 
                 desea o  directamente redirigirse a inicio. 
             </p>
-            <div align="center" style="margin-top:35px; margin-bottom:35px;">
+            <div class="img-container">
                 <img src="./app_images/payment_passenger_view.PNG">
             </div>
             <h3>
@@ -490,7 +500,7 @@
                 Una vez que el chofer finalice el viaje, se le informa al chofer que ha recibido el pago del viaje y que podra calificar al pasajero si es que lo desea o 
                 directamente redirigirse a inicio. 
             </p>
-            <div align="center" style="margin-top:35px; margin-bottom:35px;">
+            <div class="img-container">
                 <img src="./app_images/payment_driver_view.PNG">
             </div>
             <h3>
@@ -500,7 +510,7 @@
                 Una vez hecho el pago/deposito tanto el chofer como el usuario podran calificar al otro y dejar un comentario. Para eso deben apretar el boton de calificar 
                 y selecionar cuantas estrellas desean otorgarle al otro y escribir un comentario si lo desean. Una vez hecho esto apredan aceptar. 
             </p>
-            <div align="center" style="margin-top:35px; margin-bottom:35px;">
+            <div class="img-container">
                 <img src="./app_images/score_view.PNG">
             </div>
             <h3>
@@ -508,9 +518,9 @@
             </h3>
             <p>
                 Si el pasajero o el chofer desean ver su wallet, deberan apretar el boton billetera. 
-                En esta seccion podran ver su nombre y su saldo dispóbible. 
+                En esta sección podran ver su nombre y su saldo dispóbible. 
             </p>
-            <div align="center" style="margin-top:35px; margin-bottom:35px;">
+            <div class="img-container">
                 <img src="./app_images/wallet_view.PNG">
             </div>
 
