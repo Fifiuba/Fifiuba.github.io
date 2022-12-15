@@ -59,23 +59,23 @@
             </h3>
             <p> 
                 Al ingresar a informacion mas detallada de un usuario el administrador podra ver en detalle la siguiente informacion  del pasajero
-                <ol>
+                <ul>
                     <li>Datos Generales
-                        <ol style="list-style-type: lower-alpha; padding-bottom: 0;">
+                        <ul style="list-style-type: lower-alpha; padding-bottom: 0;">
                             <li style="margin-left:2em">Id</li>
                             <li style="margin-left:2em; padding-bottom: 0;">Nombre</li>
                             <li style="margin-left:2em; padding-bottom: 0;">Edad</li>
-                        </ol>
+                        </ul>
                     </li>
                     <li>Direccion </li>
                     <li>Contacto 
-                        <ol style="list-style-type: lower-alpha; padding-bottom: 0;">
+                        <ul style="list-style-type: lower-alpha; padding-bottom: 0;">
                             <li style="margin-left:2em">Correo Electronico</li>
                             <li style="margin-left:2em; padding-bottom: 0;">Telefono</li>
-                       </ol>
+                       </ul>
                     </li>
                     <li>Callificacion</li>
-                   </ol>
+                   </ul>
             </p>
             <div align="center" style="margin-top:35px; margin-bottom:35px;">
                 <img src="./backoffice_images/datosEspecificosUsuario.png">
@@ -97,28 +97,28 @@
             </h3>
             <p> 
                 Al ingresar a informacion detallada del chofer el administrador podra ver en detalle la siguiente informacion del chofer
-                <ol>
+                <ul>
                     <li>Datos Generales
-                        <ol style="list-style-type: lower-alpha; padding-bottom: 0;">
+                        <ul style="list-style-type: lower-alpha; padding-bottom: 0;">
                             <li style="margin-left:2em">Id</li>
                             <li style="margin-left:2em; padding-bottom: 0;">Nombre</li>
                             <li style="margin-left:2em; padding-bottom: 0;">Edad</li>
-                        </ol>
+                        </ul>
                     </li>
                     <li>Vehiculo
-                        <ol style="list-style-type: lower-alpha; padding-bottom: 0;">
+                        <ul style="list-style-type: lower-alpha; padding-bottom: 0;">
                             <li style="margin-left:2em">Patente</li>
                             <li style="margin-left:2em; padding-bottom: 0;">Matricula</li>
-                       </ol>
+                       </ul>
                     </li>
                     <li>Contacto 
-                        <ol style="list-style-type: lower-alpha; padding-bottom: 0;">
+                        <ul style="list-style-type: lower-alpha; padding-bottom: 0;">
                             <li style="margin-left:2em">Correo Electronico</li>
                             <li style="margin-left:2em; padding-bottom: 0;">Telefono</li>
-                       </ol>
+                       </ul>
                     </li>
                     <li>Callificacion</li>
-                   </ol>
+                   </ul>
             </p>
             <div align="center" style="margin-top:35px; margin-bottom:35px;">
                 <img src="./backoffice_images/datosEspecificoChofer.png">
@@ -135,12 +135,12 @@
             </h3>
             <p>
                 En esta seccion se podra registrar a un administrador que para poder crearse una cuenta debera cargar los siguientes datos:
-                <ol>
+                <ul>
                     <li>Nombre</li>
                     <li>Apellido</li>
                     <li>Correo Electronico: Es el identificador unico del usuario en la aplicacion y no podra ser modificado. Ingresar un email v&aacute;lido.</li>
                     <li>Contraseña: La contraseña debe tener un minimo de </li>
-                </ol>
+                </ul>
             </p>
             <div align="center" style="margin-top:35px; margin-bottom:35px;">
                 <img src="./backoffice_images/registro.png">
@@ -161,10 +161,89 @@
             <p>
                 En esta seccion, podemos modificar los datos personales del administrador: nombre y apellido. 
                 El correo electronico es el unico dato que no se puede modificar ya que es el identificador unico que posee el administrador.
+                Debera apretar el boton guardar cambios para que efectivamente se modifiquen los datos o cancel si desea que se mantengan como estaban
             </p>
             <div align="center" style="margin-top:35px; margin-bottom:35px;">
                 <img src="./backoffice_images/editar.png">
             </div>
+            <h3>
+                Visualizar Viajes
+            </h3>
+            <p>
+                En esta seccion se listarán todos los viajes pedidos del sistema. Se mostrara la siguiente informacion:
+                <ul>
+                    <li>Id</li>
+                    <li>Estado</li>
+                    <li>Id del Pasajero</li>
+                    <li>Origen</li>
+                    <li>Destino</li>
+                    <li>Precio</li>
+                    <li>Inicio</li>
+                    <li>Fin</li>
+                </ul>
+                <div align="center" style="margin-top:35px; margin-bottom:35px;">
+                    <img src="./backoffice_images/viajes.png">
+                </div>
+                Tambien se podra editar la distancia radial y el precio base 
+                <div align="center" style="margin-top:35px; margin-bottom:35px;">
+                    <img src="./backoffice_images/cotizacion.png">
+                </div>
+            </p>
+            <h3> 
+                Metricas
+            </h3>
+            <p>
+                En esta seccion es posible ver distintas m&eacute;tricas en funci&oacute;n del tiempo. Algunas de estas metricas son: 
+                    <ul>
+                        <li>Distintos tipos de login</li>
+                        <li>Distintos tipos de registro</li>
+                        <li>Bloquear/desbloquear usuarios</li>
+                        <li>Recupero de contraseñas</li>    
+                    </ul>
+                    <br>
+                    <br>
+                    En la seccion de arriba se puede apretar la metrica que se desea visualizar y quitar las que no. 
+            </p>
+            <div align="center" style="margin-top:35px; margin-bottom:35px;">
+                <img src="./backoffice_images/metricas.png">
+            </div>
+            <h3>
+                Transacciones
+            </h3>
+            <p>
+                En esta seccion se listan las transsaciiones realizadas en el sistema. Estos datos estarán dispuestos 
+                en una tabla paginada en la cual el administrador puede navegar con el paginador.
+                Se visualiza la siguiente informacion:
+                <ul>
+                    <li>Id</li>
+                    <li>Transaccion Address</li>
+                    <li>Origen</li>
+                    <li>Destino</li>
+                    <li>Valoe</li>
+                </ul>
+            </p>
+            <div align="center" style="margin-top:35px; margin-bottom:35px;">
+                <img src="./backoffice_images/transacciones.png">
+            </div>
+            <h3>
+                Servicios
+            </h3>
+            <p>
+                En esta seccion se listan los Servicios de backend de la aplicacion. Estos datos estarán dispuestos 
+                en una tabla paginada en la cual el administrador puede navegar con el paginador.
+                Se visualiza la siguiente informacion: 
+                <ul>
+                    <li>Servicio</li>
+                    <li>Descripcion</li>
+                    <li>Creado</li>
+                    <li>Estado</li>
+                </ul>
+            </p>
+            <div align="center" style="margin-top:35px; margin-bottom:35px;">
+                <img src="./backoffice_images/servicios.png">
+            </div>
+
+
 
 
 
